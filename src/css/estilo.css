@@ -22,7 +22,7 @@ body{
     flex:1;
     padding: 1px;
     transition: 0.5s ease-in-out;
-    background-image: linear-gradient(rgba(255, 0, 230, 0.904), black);
+    background-image: linear-gradient(aqua, black);
 }
 
 .video-container video{
@@ -71,7 +71,7 @@ body{
 
 
 .login-container{
-    background-image: linear-gradient(rgba(255, 0, 230, 0.904), black);
+    background-image: linear-gradient(aqua, black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,24 +99,24 @@ body{
     width: 200px;
     padding: 5px;
     border-radius: 10px;
-    border: 1px solid rgb(233, 182, 230);
+    border: 1px solid greenyellow;
 }
 #btnEntrar{
     padding: 10px 20px;
-    background: rgb(233, 182, 230);
-    color:rgb(0, 0, 0);
+    background: rgb(137, 218, 137);
+    color:blue;
     border-radius: 10px;
     transition:  all 200ms linear;
     margin-left: 25%;
 }
 #btnEntrar:hover{
-    background: rgb(233, 182, 230);
-    box-shadow: 5px 5px 5px rgb(233, 182, 230);
+    background: greenyellow;
+    box-shadow: 5px 5px 5px greenyellow;
 }
 #btnTrocar{
     padding: 10px 20px;
     background: #ccc;
-    color:rgb(0, 0, 0);
+    color:blue;
     border-radius: 10px;
     transition:  all 200ms linear;
 }
@@ -127,12 +127,12 @@ body{
 }
 .mensagem.sucesso{
     background: #fff;
-    color:rgb(233, 182, 230);
-    border-radius: 1px solid rgb(233, 182, 230);
+    color:green;
+    border-radius: 1px solid greenyellow;
 }
 
 .mensagem.error{
     background: #fff;
     color:rgb(128, 0, 30);
-    border-radius: 1px solid rgb(233, 182, 230);
+    border-radius: 1px solid greenyellow;
 }
